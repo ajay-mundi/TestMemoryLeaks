@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Meteor Debugger",
+            "type": "dotnet-meteor.debugger",
+            "request": "launch",
+            "preLaunchTask": "dotnet-meteor: Build"
+        },
+        {
+            "name": ".NET Meteor Profiler",
+            "type": "dotnet-meteor.debugger",
+            "request": "launch",
+            "profilerMode": "trace",
+            "preLaunchTask": "dotnet-meteor: Build"
+        },
+        {
+            "name": ".NET Meteor: iOSSimulator-x64",
+            "type": "dotnet-meteor.debugger",
+            "request": "launch",
+            //Path to executable
+            "program": "MauiApp/BTMobileApp/bin/Debug/net8.0-ios/iossimulator-x64/BTMobileApp.app",
+            "preLaunchTask": "Build iOSSimulator-x64"
+        },
+        {
+            "name": "(simX64) .NET Meteor Debugger",
+            "type": "dotnet-meteor.debugger",
+            "request": "launch",
+            "device": {
+                "serial": "${command:dotnet-meteor.activeDeviceSerial}",
+                "runtime_id": "iossimulator-x64",
+                "platform": "ios",
+                "is_emulator": true,
+            },
+            "profilerMode": "gcdump",
+            "preLaunchTask": "Build without runtimeId"
+        }
+    ]
+}

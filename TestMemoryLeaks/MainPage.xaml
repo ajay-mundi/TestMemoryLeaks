@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestMemoryLeaks.MainPage"
+             Shell.NavBarIsVisible="False">
+
+  <ScrollView>
+    <VerticalStackLayout Padding="30,0"
+                         Spacing="25">
+      <Border>
+        <VerticalStackLayout>
+          <Label Text="Android and IOS Memory Leak"
+                 BackgroundColor="Red"
+                 HorizontalOptions="CenterAndExpand"
+                 TextColor="White"/>
+          <Label Text="IOS Memory Leak"
+                 BackgroundColor="Orange"
+                 HorizontalOptions="Center"
+                 TextColor="White"/>
+          <Label Text="No Leak Detected"
+                 BackgroundColor="Green"
+                 HorizontalOptions="Center"
+                 TextColor="White"/>
+        </VerticalStackLayout>
+
+      </Border>
+
+      <Button Text="Test Base Page"
+              Clicked="TestBasePage"
+              BackgroundColor="Green"/>
+      <Button Text="Test SF Accordion"
+              Clicked="TestTestSFAccordion"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Activity Indicator"
+              Clicked="TestTestSFActivityIndicator"
+              BackgroundColor="Red"/>
+      <Button Text="Test SF Carousel"
+              Clicked="TestTestSFCarousel"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Chat"
+              Clicked="TestTestSFChat"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Combo Box"
+              Clicked="TestTestSFComboBox"
+              BackgroundColor="Red"/>
+      <Button Text="Test SF Date Picker"
+              Clicked="TestTestSFDatePicker"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF DateTime Picker"
+              Clicked="TestTestSFDateTimePicker"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Image Editor"
+              Clicked="TestTestSFImageEditor"
+              BackgroundColor="Red"/>
+      <Button Text="Test SF PDF Editor"
+              Clicked="TestTestSFPDFEditor"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Scheduler"
+              Clicked="TestTestSFScheduler"
+              BackgroundColor="Red"/>
+      <Button Text="Test SF Tab View"
+              Clicked="TestTestSFTabView"
+              BackgroundColor="Red"/>
+      <Button Text="Test SF Time Picker"
+              Clicked="TestTestSFTimePicker"
+              BackgroundColor="Orange"/>
+      <Button Text="Test SF Tree View"
+              Clicked="TestTestSFTreeView"
+              BackgroundColor="Orange"/>
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>
+

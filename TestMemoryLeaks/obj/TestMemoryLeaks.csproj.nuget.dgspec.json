@@ -1,0 +1,364 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestMemoryLeaks.csproj": {}
+  },
+  "projects": {
+    "/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestMemoryLeaks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestMemoryLeaks.csproj",
+        "projectName": "TestMemoryLeaks",
+        "projectPath": "/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestMemoryLeaks.csproj",
+        "packagesPath": "/Users/ajaymundi/.nuget/packages/",
+        "outputPath": "/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/ajaymundi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-android",
+          "net8.0-ios",
+          "net8.0-maccatalyst"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-android34.0": {
+            "targetAlias": "net8.0-android",
+            "projectReferences": {}
+          },
+          "net8.0-ios17.5": {
+            "targetAlias": "net8.0-ios",
+            "projectReferences": {}
+          },
+          "net8.0-maccatalyst17.5": {
+            "targetAlias": "net8.0-maccatalyst",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-android34.0": {
+          "targetAlias": "net8.0-android",
+          "dependencies": {
+            "AdamE.MemoryToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Carousel": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Chat": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Expander": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.ImageEditor": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.PdfViewer": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TreeView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        },
+        "net8.0-ios17.5": {
+          "targetAlias": "net8.0-ios",
+          "dependencies": {
+            "AdamE.MemoryToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Carousel": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Chat": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Expander": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.ImageEditor": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.PdfViewer": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TreeView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        },
+        "net8.0-maccatalyst17.5": {
+          "targetAlias": "net8.0-maccatalyst",
+          "dependencies": {
+            "AdamE.MemoryToolkit.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.82, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Carousel": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Chat": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Expander": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.ImageEditor": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Inputs": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.PdfViewer": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Picker": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TabView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            },
+            "Syncfusion.Maui.TreeView": {
+              "target": "Package",
+              "version": "[26.2.14, )"
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
+        "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

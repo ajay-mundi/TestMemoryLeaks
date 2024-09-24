@@ -1,0 +1,131 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestMemoryLeaks
+build_property.ProjectDir = /Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/BasePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.BasePage.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/BasePage.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/BasePage.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFAccordion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFAccordion.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFAccordion.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFAccordion.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFActivityIndicator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFActivityIndicator.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFActivityIndicator.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFActivityIndicator.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFCarousel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFCarousel.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFCarousel.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFCarousel.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFChat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFChat.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFChat.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFChat.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFComboBox.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFComboBox.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFComboBox.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFComboBox.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFDatePicker.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFDatePicker.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFDatePicker.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFDatePicker.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFDateTimePicker.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFDateTimePicker.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFDateTimePicker.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFDateTimePicker.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFImageEditor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFImageEditor.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFImageEditor.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFImageEditor.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFPDFViewer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFPDFViewer.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFPDFViewer.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFPDFViewer.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFScheduler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFScheduler.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFScheduler.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFScheduler.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFTabView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFTabView.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFTabView.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFTabView.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFTimePicker.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFTimePicker.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFTimePicker.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFTimePicker.xaml
+
+[/Users/ajaymundi/Projects/TestMemoryLeaks/TestMemoryLeaks/TestPages/TestSFTreeView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestMemoryLeaks.TestPages.TestSFTreeView.xaml
+build_metadata.AdditionalFiles.TargetPath = TestPages/TestSFTreeView.xaml
+build_metadata.AdditionalFiles.RelativePath = TestPages/TestSFTreeView.xaml

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tabView="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
+             xmlns:mtk="clr-namespace:MemoryToolkit.Maui;assembly=MemoryToolkit.Maui"
+             mtk:LeakMonitorBehavior.Cascade="True"
+             x:Class="TestMemoryLeaks.TestSFTabView">
+<VerticalStackLayout>
+  <Label Text="Test SFTabView"/>
+<tabView:SfTabView x:Name="tabView">
+            <tabView:SfTabView.Items>
+                <tabView:SfTabItem Header="Call">
+                    <tabView:SfTabItem.Content>
+                        <Grid BackgroundColor="Red" />
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+
+                <tabView:SfTabItem Header="Favorites">
+                    <tabView:SfTabItem.Content>
+                        <Grid BackgroundColor="Green"/>
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+
+                <tabView:SfTabItem Header="Contacts">
+                    <tabView:SfTabItem.Content>
+                        <Grid BackgroundColor="Blue"/>
+                    </tabView:SfTabItem.Content>
+                </tabView:SfTabItem>
+            </tabView:SfTabView.Items>
+        </tabView:SfTabView>
+</VerticalStackLayout>
+</ContentPage>
+

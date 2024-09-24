@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "dotnet-meteor.task",
+            "target": "build",
+            "label": "Build without runtimeId",
+	    "args": [
+                // It removes auto provided value
+                "-p:RuntimeIdentifier="
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
